@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CEF_test.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="title.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CEF_test" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="CEF_test.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CefSharp" version="75.1.142.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CefSharp.Core" version="75.1.142.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CEF_test.exe" size="20992">
+      <assemblyIdentity name="CEF_test" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KlxKmNqEfPSUQP2nk00qia/p8RFEPnpgK0r6mJTPslo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.WinForms.dll" size="28160">
+      <assemblyIdentity name="CefSharp.WinForms" version="75.1.142.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>s8fh0efw4N6KNvYX6zkyg9YX70erTewxCEJ/li01a10=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="504320">
+      <assemblyIdentity name="Newtonsoft.Json" version="6.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eL7dn86HenGo2P+agTZi2CSDYeRnBcTvevxh1ED/Lus=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bin\x86\Release\pugongying\css\bootstrap.min.css" size="122326">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q2guHhiiUE67H71Vk9IO5RibdbhjGGwEVtvP1LEFdEE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\css\font-awesome.min.css" size="26546">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PXgVruc9cBKw2HJ9hgyOo+7QFIhd5hgKC0rAMKDdK6M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\css\layer.css" size="11241">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DRzMgoWJzH4P/dxh/zMig30FzxAmzV0DPMXQ+XJVYGM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\css\layer.ext.css" size="2763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PldCFp6Kl/y26/+5OsbgeiZK1n1Ngt723m+U7/n5rMo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\css\sidebar-body.css" size="2220">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MI/K+SSi2vXAfpiWabDtnEBnIkuUTh0PPhuhlNGFVaU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\css\sidebar-menu.css" size="1937">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gccN4sDQKKyozBBcXE5U2WORIZ/JYkqjyW2wTB9cZw0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\css\ui.jqgrid-bootstrap.min.css" size="12614">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>L8fhQP3R+JEvjvSft7Nl4FVBtSbyftNvFCj/47yx4NA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\fonts\fontawesome-webfont.svg" size="356076">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kAGk7DEmdM824Uh7RFVGXwlF2dQ/Djdbj/KPyYPGfGM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\fonts\glyphicons-halflings-regular.svg" size="108834">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XT6F9Iu/eFdCiO0sNe3JUJGyA947LYFWvFBOuelGwCQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\index.html" size="11297">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sIR6I5lVf3Cd1kC7/Z2ifBNNEO7UfxsAXM3PyUQ55tk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\form.min.js" size="10479">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ttpDyje3vuYTBtFupnIM/o3bg2wSFz7hJL3opAGxylA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\grid.locale-cn.min.js" size="7414">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WsNJSBwPvOUSTnLfasj9tK+jYT8zBqEjFsS/c9iZV6c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\hxjzg.js" size="1782">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ij1gPPmWZB45TCAE9Ud8HqbsPhwzwxMKaHsw1eh8A9o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\jquery.jqGrid.min.js" size="311170">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3PcR3kyNnxKCxX5zDHSVRJlojJKMa96ipkhnLxHuTf8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\jquery-3.0.0.min.js" size="86341">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\layer.ext.min.js" size="8275">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e/t+E+YoT9+cEwNNrvKYAJVObxQNpypIPNFmXtMeoSs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\layer.min.js" size="14900">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CY5dJfMVhFgAT3tyV2bU2qhQd9zEFPo7lQnsHCu8IQE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\pgy.js" size="2826">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yOYz8NVUcDnXNOli8LLhezo0APTynnlbJjZiq34q5po=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\sidebar-menu.js" size="1391">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qXAHqquouFVUPKIQWEzL3wjdp/kejTtgnUGMo54eStE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\pugongying\js\table.js" size="4826">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NjPe7ZbrUX+hc3keoVk/OXbFz37on/ex/B/l6YV2pyM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CEF_test.exe.config" size="873">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yHjn/wNra5ahrNeuT6u/qrqD1aWPFWavlP8qvOQQopE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="title.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>N+sc8Jtae0SIBO+dla9U8ez35JwmQOG0qn/nC9VnC4w=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
