@@ -95,8 +95,14 @@
       <HintPath>..\packages\CefSharp.WinForms.75.1.142\CefSharp\x86\CefSharp.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.19.3.1\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -117,8 +123,10 @@
     </Compile>
     <Compile Include="CefConnectAccess.cs" />
     <Compile Include="CefMenuHandler.cs" />
+    <Compile Include="GetDataTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,15 +140,19 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="bin\x86\Release\pugongying\fonts\fontawesome-webfont.eot" />
-    <None Include="bin\x86\Release\pugongying\fonts\fontawesome-webfont.ttf" />
-    <None Include="bin\x86\Release\pugongying\fonts\fontawesome-webfont.woff" />
-    <None Include="bin\x86\Release\pugongying\fonts\fontawesome-webfont.woff2" />
-    <None Include="bin\x86\Release\pugongying\fonts\FontAwesome.otf" />
-    <None Include="bin\x86\Release\pugongying\fonts\glyphicons-halflings-regular.eot" />
-    <None Include="bin\x86\Release\pugongying\fonts\glyphicons-halflings-regular.ttf" />
-    <None Include="bin\x86\Release\pugongying\fonts\glyphicons-halflings-regular.woff" />
-    <None Include="bin\x86\Release\pugongying\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="bin\x86\Release\html\pugongying\fonts\fontawesome-webfont.eot" />
+    <None Include="bin\x86\Release\html\pugongying\fonts\fontawesome-webfont.ttf" />
+    <None Include="bin\x86\Release\html\pugongying\fonts\fontawesome-webfont.woff" />
+    <None Include="bin\x86\Release\html\pugongying\fonts\fontawesome-webfont.woff2" />
+    <None Include="bin\x86\Release\html\pugongying\fonts\FontAwesome.otf" />
+    <None Include="bin\x86\Release\html\pugongying\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="bin\x86\Release\html\pugongying\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="bin\x86\Release\html\pugongying\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="bin\x86\Release\html\pugongying\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="bin\x86\Release\html\statistics\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="bin\x86\Release\html\statistics\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="bin\x86\Release\html\statistics\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="bin\x86\Release\html\statistics\font-awesome\fonts\FontAwesome.otf" />
     <None Include="CEF_test_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -154,7 +166,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -169,26 +183,53 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\x86\Release\pugongying\css\bootstrap.min.css" />
-    <Content Include="bin\x86\Release\pugongying\css\font-awesome.min.css" />
-    <Content Include="bin\x86\Release\pugongying\css\layer.css" />
-    <Content Include="bin\x86\Release\pugongying\css\layer.ext.css" />
-    <Content Include="bin\x86\Release\pugongying\css\sidebar-body.css" />
-    <Content Include="bin\x86\Release\pugongying\css\sidebar-menu.css" />
-    <Content Include="bin\x86\Release\pugongying\css\ui.jqgrid-bootstrap.min.css" />
-    <Content Include="bin\x86\Release\pugongying\fonts\fontawesome-webfont.svg" />
-    <Content Include="bin\x86\Release\pugongying\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="bin\x86\Release\pugongying\index.html" />
-    <Content Include="bin\x86\Release\pugongying\js\form.min.js" />
-    <Content Include="bin\x86\Release\pugongying\js\grid.locale-cn.min.js" />
-    <Content Include="bin\x86\Release\pugongying\js\hxjzg.js" />
-    <Content Include="bin\x86\Release\pugongying\js\jquery-3.0.0.min.js" />
-    <Content Include="bin\x86\Release\pugongying\js\jquery.jqGrid.min.js" />
-    <Content Include="bin\x86\Release\pugongying\js\layer.ext.min.js" />
-    <Content Include="bin\x86\Release\pugongying\js\layer.min.js" />
-    <Content Include="bin\x86\Release\pugongying\js\pgy.js" />
-    <Content Include="bin\x86\Release\pugongying\js\sidebar-menu.js" />
-    <Content Include="bin\x86\Release\pugongying\js\table.js" />
+    <Content Include="bin\x86\Release\html\pugongying\css\bootstrap.min.css" />
+    <Content Include="bin\x86\Release\html\pugongying\css\font-awesome.min.css" />
+    <Content Include="bin\x86\Release\html\pugongying\css\layer.css" />
+    <Content Include="bin\x86\Release\html\pugongying\css\layer.ext.css" />
+    <Content Include="bin\x86\Release\html\pugongying\css\sidebar-body.css" />
+    <Content Include="bin\x86\Release\html\pugongying\css\sidebar-menu.css" />
+    <Content Include="bin\x86\Release\html\pugongying\css\ui.jqgrid-bootstrap.min.css" />
+    <Content Include="bin\x86\Release\html\pugongying\fonts\fontawesome-webfont.svg" />
+    <Content Include="bin\x86\Release\html\pugongying\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bin\x86\Release\html\pugongying\index.html" />
+    <Content Include="bin\x86\Release\html\pugongying\js\form.min.js" />
+    <Content Include="bin\x86\Release\html\pugongying\js\grid.locale-cn.min.js" />
+    <Content Include="bin\x86\Release\html\pugongying\js\hxjzg.js" />
+    <Content Include="bin\x86\Release\html\pugongying\js\jquery-3.0.0.min.js" />
+    <Content Include="bin\x86\Release\html\pugongying\js\jquery.jqGrid.min.js" />
+    <Content Include="bin\x86\Release\html\pugongying\js\layer.ext.min.js" />
+    <Content Include="bin\x86\Release\html\pugongying\js\layer.min.js" />
+    <Content Include="bin\x86\Release\html\pugongying\js\pgy.js" />
+    <Content Include="bin\x86\Release\html\pugongying\js\sidebar-menu.js" />
+    <Content Include="bin\x86\Release\html\pugongying\js\table.js" />
+    <Content Include="bin\x86\Release\html\statistics\config.html" />
+    <Content Include="bin\x86\Release\html\statistics\css\bootstrap-4.2.1.css" />
+    <Content Include="bin\x86\Release\html\statistics\css\bootstrap.css" />
+    <Content Include="bin\x86\Release\html\statistics\css\jquery.editable-select.css" />
+    <Content Include="bin\x86\Release\html\statistics\css\morris-0.4.3.min.css" />
+    <Content Include="bin\x86\Release\html\statistics\css\sb-admin.css" />
+    <Content Include="bin\x86\Release\html\statistics\css\style.default.css" />
+    <Content Include="bin\x86\Release\html\statistics\font-awesome\css\font-awesome.css" />
+    <Content Include="bin\x86\Release\html\statistics\font-awesome\css\font-awesome.min.css" />
+    <Content Include="bin\x86\Release\html\statistics\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="bin\x86\Release\html\statistics\img\bg.jpg" />
+    <Content Include="bin\x86\Release\html\statistics\index.html" />
+    <Content Include="bin\x86\Release\html\statistics\js\bootstrap.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\chartForm.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\index.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\config.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\echarts\4.2.0\echarts.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\echarts\4.2.0\echarts.min.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\jquery-1.10.2.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\jquery.editable-select.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\login\front.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\jquery.tablesorter.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\popup\toastr.min.css" />
+    <Content Include="bin\x86\Release\html\statistics\js\popup\toastr.min.js" />
+    <Content Include="bin\x86\Release\html\statistics\js\tables.js" />
+    <Content Include="bin\x86\Release\html\statistics\login.html" />
+    <Content Include="bin\x86\Release\html\statistics\table.html" />
     <Content Include="title.ico" />
   </ItemGroup>
   <ItemGroup />

@@ -53,14 +53,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CEF_test.exe" size="20992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CEF_test.exe" size="24064">
       <assemblyIdentity name="CEF_test" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KlxKmNqEfPSUQP2nk00qia/p8RFEPnpgK0r6mJTPslo=</dsig:DigestValue>
+        <dsig:DigestValue>AzANESs/4qfMyaM+r1X3uTFnTzx4C+NTFqEENmaxuY4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -88,7 +88,19 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="bin\x86\Release\pugongying\css\bootstrap.min.css" size="122326">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Oracle.ManagedDataAccess.dll" size="5005824">
+      <assemblyIdentity name="Oracle.ManagedDataAccess" version="4.122.19.1" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8pLszBbaw1SzIyewQiosKI9OCXEMmUlpEPdMiRgjiqU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bin\x86\Release\html\pugongying\css\bootstrap.min.css" size="122326">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -97,7 +109,7 @@
       <dsig:DigestValue>Q2guHhiiUE67H71Vk9IO5RibdbhjGGwEVtvP1LEFdEE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\css\font-awesome.min.css" size="26546">
+  <file name="bin\x86\Release\html\pugongying\css\font-awesome.min.css" size="26546">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -106,7 +118,7 @@
       <dsig:DigestValue>PXgVruc9cBKw2HJ9hgyOo+7QFIhd5hgKC0rAMKDdK6M=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\css\layer.css" size="11241">
+  <file name="bin\x86\Release\html\pugongying\css\layer.css" size="11241">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -115,7 +127,7 @@
       <dsig:DigestValue>DRzMgoWJzH4P/dxh/zMig30FzxAmzV0DPMXQ+XJVYGM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\css\layer.ext.css" size="2763">
+  <file name="bin\x86\Release\html\pugongying\css\layer.ext.css" size="2763">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -124,7 +136,7 @@
       <dsig:DigestValue>PldCFp6Kl/y26/+5OsbgeiZK1n1Ngt723m+U7/n5rMo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\css\sidebar-body.css" size="2220">
+  <file name="bin\x86\Release\html\pugongying\css\sidebar-body.css" size="2220">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -133,7 +145,7 @@
       <dsig:DigestValue>MI/K+SSi2vXAfpiWabDtnEBnIkuUTh0PPhuhlNGFVaU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\css\sidebar-menu.css" size="1937">
+  <file name="bin\x86\Release\html\pugongying\css\sidebar-menu.css" size="1937">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -142,7 +154,7 @@
       <dsig:DigestValue>gccN4sDQKKyozBBcXE5U2WORIZ/JYkqjyW2wTB9cZw0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\css\ui.jqgrid-bootstrap.min.css" size="12614">
+  <file name="bin\x86\Release\html\pugongying\css\ui.jqgrid-bootstrap.min.css" size="12614">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -151,7 +163,7 @@
       <dsig:DigestValue>L8fhQP3R+JEvjvSft7Nl4FVBtSbyftNvFCj/47yx4NA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\fonts\fontawesome-webfont.svg" size="356076">
+  <file name="bin\x86\Release\html\pugongying\fonts\fontawesome-webfont.svg" size="356076">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -160,7 +172,7 @@
       <dsig:DigestValue>kAGk7DEmdM824Uh7RFVGXwlF2dQ/Djdbj/KPyYPGfGM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\fonts\glyphicons-halflings-regular.svg" size="108834">
+  <file name="bin\x86\Release\html\pugongying\fonts\glyphicons-halflings-regular.svg" size="108834">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -169,16 +181,16 @@
       <dsig:DigestValue>XT6F9Iu/eFdCiO0sNe3JUJGyA947LYFWvFBOuelGwCQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\index.html" size="11297">
+  <file name="bin\x86\Release\html\pugongying\index.html" size="11298">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>sIR6I5lVf3Cd1kC7/Z2ifBNNEO7UfxsAXM3PyUQ55tk=</dsig:DigestValue>
+      <dsig:DigestValue>MRmraOlpLMgHuseCfvMtGV7e6MH/JbXx+5mFyNMYSsk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\form.min.js" size="10479">
+  <file name="bin\x86\Release\html\pugongying\js\form.min.js" size="10479">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -187,7 +199,7 @@
       <dsig:DigestValue>ttpDyje3vuYTBtFupnIM/o3bg2wSFz7hJL3opAGxylA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\grid.locale-cn.min.js" size="7414">
+  <file name="bin\x86\Release\html\pugongying\js\grid.locale-cn.min.js" size="7414">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -196,7 +208,7 @@
       <dsig:DigestValue>WsNJSBwPvOUSTnLfasj9tK+jYT8zBqEjFsS/c9iZV6c=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\hxjzg.js" size="1782">
+  <file name="bin\x86\Release\html\pugongying\js\hxjzg.js" size="1782">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -205,7 +217,7 @@
       <dsig:DigestValue>Ij1gPPmWZB45TCAE9Ud8HqbsPhwzwxMKaHsw1eh8A9o=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\jquery.jqGrid.min.js" size="311170">
+  <file name="bin\x86\Release\html\pugongying\js\jquery.jqGrid.min.js" size="311170">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -214,7 +226,7 @@
       <dsig:DigestValue>3PcR3kyNnxKCxX5zDHSVRJlojJKMa96ipkhnLxHuTf8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\jquery-3.0.0.min.js" size="86341">
+  <file name="bin\x86\Release\html\pugongying\js\jquery-3.0.0.min.js" size="86341">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -223,7 +235,7 @@
       <dsig:DigestValue>JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\layer.ext.min.js" size="8275">
+  <file name="bin\x86\Release\html\pugongying\js\layer.ext.min.js" size="8275">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -232,7 +244,7 @@
       <dsig:DigestValue>e/t+E+YoT9+cEwNNrvKYAJVObxQNpypIPNFmXtMeoSs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\layer.min.js" size="14900">
+  <file name="bin\x86\Release\html\pugongying\js\layer.min.js" size="14900">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -241,7 +253,7 @@
       <dsig:DigestValue>CY5dJfMVhFgAT3tyV2bU2qhQd9zEFPo7lQnsHCu8IQE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\pgy.js" size="2826">
+  <file name="bin\x86\Release\html\pugongying\js\pgy.js" size="2826">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -250,7 +262,7 @@
       <dsig:DigestValue>yOYz8NVUcDnXNOli8LLhezo0APTynnlbJjZiq34q5po=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\sidebar-menu.js" size="1391">
+  <file name="bin\x86\Release\html\pugongying\js\sidebar-menu.js" size="1391">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -259,7 +271,7 @@
       <dsig:DigestValue>qXAHqquouFVUPKIQWEzL3wjdp/kejTtgnUGMo54eStE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="bin\x86\Release\pugongying\js\table.js" size="4826">
+  <file name="bin\x86\Release\html\pugongying\js\table.js" size="4826">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -268,13 +280,256 @@
       <dsig:DigestValue>NjPe7ZbrUX+hc3keoVk/OXbFz37on/ex/B/l6YV2pyM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="CEF_test.exe.config" size="873">
+  <file name="bin\x86\Release\html\statistics\config.html" size="9537">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>yHjn/wNra5ahrNeuT6u/qrqD1aWPFWavlP8qvOQQopE=</dsig:DigestValue>
+      <dsig:DigestValue>QUJtdS9Y8G1U0kr0rZpsUApc2IRLRHo0hehlHp3+mW4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\css\bootstrap.css" size="120050">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>haBUh+NELpAn8QydaSqhb9WnNVSrsouQ/2SXHHwWUpc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\css\bootstrap-4.2.1.css" size="79">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+HCrnWaUZcTauXZiJngrK20ty5G1cBkZYO1r0oTSyaw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\css\jquery.editable-select.css" size="565">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RNB5FxPWR2AQME9nGxh4E2SRiqjVv/K4g+RndMGezIA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\css\morris-0.4.3.min.css" size="443">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>51chLHZc4qobxrGie+gHwyAbQ8/aCcLJ9IG7I7k1JuI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\css\sb-admin.css" size="3050">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j3sQ24VPa+yqdkMHaypVMAHCXuPSWBDhjqEtncPju0g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\css\style.default.css" size="70668">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MgBxclwKZb0whqPGfPb/P6V4wKLynAORv+8EY05Tyjo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\font-awesome\css\font-awesome.css" size="21658">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MIPo07Id3D8ObWXsNYCqbt+q3KXZc32cqifmojPhzPM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\font-awesome\css\font-awesome.min.css" size="17780">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sSwc2BH1TRG/3LXiNec5NKi4p6her7hSkRf5pbtkzPg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\font-awesome\fonts\fontawesome-webfont.svg" size="202148">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t1H4G0sNt3xJpz/oBnwK7R8eRusS82fuU/5t+LkENwM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\img\bg.jpg" size="33134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gi4qZdZVhAh0/dBifbWDHpqPsuXPOV6I4tVcKUz821M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\index.html" size="9154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SZ9NjULImAN7CVxnjSHPgtWra2l38ZtB0z0VlOlrDug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\bootstrap.js" size="58327">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IPncG4Vmo3HMPocVFkJ8pJFlw8XuSGgBJA/j5yXaI1w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\chartForm.js" size="1517">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IMkdnSfKGhk1VrDaD00egDGweencENICjlfjX5FLhxc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\config.js" size="5277">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bjL8OeeVKphKsKMdaU7mOePMRu5W6pO1vM1wUNgAbEI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\echarts\4.2.0\echarts.js" size="2870015">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XrOyYBjAp6JY30VWwkc8C+lEoLOBN1mfse6hf6diYJE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\echarts\4.2.0\echarts.min.js" size="744702">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FvuggLW/e7EKcT+vgpZq4W/akiuNX1Ab3573cg7Sfgw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\index.js" size="1240">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V802aR5woj1b1KZ/TinO71qW1Gd2wlNYoynstx4+ShQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\jquery.editable-select.js" size="10676">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TCcuEflAF/UB9WIO7/FZP4K6k15bqAqekNqVmylDfCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\jquery.tablesorter.js" size="40914">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jAkZjvxpi2SKGoQHzm3thOKchGGbu/MLWj4ARN4sNWg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\jquery-1.10.2.js" size="93104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+kEUCednWVuDvxL3IE1pqFYDHslGaZg1gxb2y7/t2KY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\login\front.js" size="850">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S2wiwpy+AV1a2fIFPg/abvu6rRAfbUEtaOyj9pWtyig=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\popup\toastr.min.css" size="6748">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2qzHl5bjhxB/4wes1DCRBLaE91QTx/QqHDD+x7IR6yA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\popup\toastr.min.js" size="5542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7nS725nBzYPf4XWUveumiDLVw4FEvoidPQQb3L2HZfc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\js\tables.js" size="63">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WfUpFj1ilvmEzn/92bZUjjxqqkt6UHKrIY2poA8zvi4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\login.html" size="2481">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WcIsvrm4X2rM2vfL9xPqLNHYVgeFy+8gBJwyTJGQ7lw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\x86\Release\html\statistics\table.html" size="14808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iIHsaJjura1Qoxj5PwtPLz4lP2QFVs+HLujD3TxxEqk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CEF_test.exe.config" size="2261">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5ToFbo1SD0IBr4rGqaB6R2DhWtO+NwG8iV6Kf4mrifI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="title.ico" size="4286">
